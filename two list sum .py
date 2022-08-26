@@ -6,19 +6,19 @@
 
 # If we give [50, 60, 10] and [10, 20, 13] to this function it will print this
 
-# def add(num1,num2):
-#     print(num1+num2)
-# add(56,12)  
-# 
-# def sum(list):
-#     i=0
-#     sum=0
-#     while i<len(list):
-#         if type(list[i])==list:
-#             sum=sum+(list[i])+(list[i])
-#         i=i+1
-#     print(sum)
-# sum([[50, 60, 10],[10, 20, 13]])          
+def add(num1,num2):
+    print(num1+num2)
+add(56,12)  
+
+def sum(list):
+    i=0
+    sum=0
+    while i<len(list):
+        if type(list[i])==list:
+            sum=sum+(list[i])+(list[i])
+        i=i+1
+    print(sum)
+sum([[50, 60, 10],[10, 20, 13]])          
 def function(a,b):
     i=0
     d=[]
